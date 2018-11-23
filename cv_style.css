@@ -1,0 +1,354 @@
+
+@font-face {
+
+    font-family: 'bleed';
+    src: url('fonts/bleed.eot');
+    src: url('fonts/bleed.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bleed.woff') format('woff'),
+         url('fonts/bleed.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+	background-image: url(ecran2.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	border-radius: 5px;
+}
+
+
+
+#bloc_page
+{
+	background-color: #FFF8DC;
+	width: 60%;
+	margin: auto;
+
+}
+
+
+#encadre
+{
+
+	border: 1px solid;
+	box-shadow: 2px 2px 2px;
+
+
+}
+
+
+#encadre img
+{
+	float: right;
+	height:200px;
+	width: 150px;
+	padding-right: 30px;
+	padding-top: 20px;
+
+
+}
+
+#encadre h1
+{
+	text-align: center;
+	margin-bottom: -25px;
+	font-family: bleed;
+
+}
+
+#encadre h2
+{
+
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: -20px;
+	font-family: bleed;
+
+}
+
+#encadre p
+{
+
+	text-align: center;
+
+}
+
+#experience h3
+{
+	text-align: center;
+	font-size: 25px;
+	border: 2px solid;
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: #778899;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+	color: #C02000;
+
+
+}
+
+#experience
+
+{
+
+	text-align: center;
+	margin-top:2px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.fonction
+{
+	font-weight: bold;
+	margin-bottom: -15px;
+}
+
+.date
+{
+
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	margin-top: 30px;
+	margin-bottom: 10px;
+
+}
+
+#formations
+{
+	text-align: center;
+	margin-top:2px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+
+#formations h3
+{
+	text-align: center;
+	font-size: 25px;
+	border: 2px solid;
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: #778899;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+	color: #C02000;
+}
+
+.annee
+{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	margin-bottom: -15px;
+	margin-top: 10px;
+}
+
+#competences
+{
+	text-align: center;
+	margin-top:2px;
+}
+
+#competences h3
+{
+	text-align: center;
+	font-size: 25px;
+	border: 2px solid;
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: #778899;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+	color: #C02000;
+}
+
+#passions
+{
+	margin-top:2px;
+}
+
+#passions h3
+{
+	text-align: center;
+	font-size: 25px;
+	border: 2px solid;
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: #778899;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+	color: #C02000;
+}
+
+table
+{
+	border: solid;
+	margin: auto;
+	margin-bottom: 50px;
+
+}
+table tr
+{
+	background-color: white;
+
+
+}
+
+table tr td
+{
+	border: solid;
+	background-color: #90E000;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+
+
+
+
+#pitch h1
+{
+	text-align: center;
+	font-size: 25px;
+	border: 2px solid;
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: #778899;
+	margin-bottom: 100px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+	color: #C02000;
+}
+
+#presentation
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-left: 30px;
+	
+
+
+}
+
+
+#video
+{
+	width:425px;height:355px;margin:auto;
+}
+
+#radio h1
+{
+	text-align: center;
+	font-size: 25px;
+	border: 2px solid;
+	margin-right: 200px;
+	margin-left: 200px;
+	background-color: #778899;
+	margin-bottom: 100px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px;
+	color: #C02000;
+}
+
+
+#radio h2
+{
+	margin-top: 35px;
+	margin-bottom: 50px;
+	color: #C02000;
+	text-align: center;
+
+}
+
+.presentation
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 30px;
+	margin-left: 30px;
+	
+}
+
+video
+{
+	display: block;
+	margin: auto;
+}
+
+a:focus
+{
+
+	color: #f00030;
+}
+a:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+/* Paramètres des boutons de la Nav */
+#Nav a{
+    position: absolute; /* Position relative du groupe Nav par rapport à la page */
+    left: -11%; /* Position hors de la page  sur la gauche */
+    transition: 0.3s; /* Les boutons se déplace vers la droite au survol (transition sur 0.3s) */
+    padding: 1.4%; /* Espace à l'intérieur des boutons */
+    width: 12%; /* Taille des boutons */
+    font-size: 110%; /* Taille de la police */
+    color: white; /* Couleur du texte */
+    border-radius: 0 10px 10px 0; /* Angles des boutons arrondis */
+    text-overflow: ellipsis; /* Si le contenu déborde, alors ... */
+    white-space: nowrap; /* Pas de retour à la ligne à l'intérieur des boutons */
+    z-index: 10; /* profondeur : au premier plan par rapport au reste du site (les boutons passeront par-dessus) */
+}
+
+#Nav a:hover{
+    left: 0; /* Au survol, le bouton se met en position 0 avec transition déclarée plus haut */
+}
+
+#page1{
+    top: 4%; /* Position du 1er bouton à 7% du haut de la page */
+    background-color: rgba(13, 24, 52, 0.9); /* Couleur du bouton et opacité à 0.8 */
+    background-image: url(micro.jpg); /* Ajout d'une image en fond */
+    background-repeat: no-repeat;
+    background-position: right center; /* Image placée à droite au centre du bouton */
+    background-size: 30%; /* taille du background => de l'image dans le bouton */
+    }
+
+ #page2
+ {top: 13%; /* Position du 1er bouton à 7% du haut de la page */
+    background-color: rgba(13, 24, 52, 0.9); /* Couleur du bouton et opacité à 0.8 */
+    background-image: url(micro.jpg); /* Ajout d'une image en fond */
+    background-repeat: no-repeat;
+    background-position: right center; /* Image placée à droite au centre du bouton */
+    background-size: 30%; /* taille du background => de l'image dans le bouton */}
+
+  #page3
+ {top: 22%; /* Position du 1er bouton à 7% du haut de la page */
+    background-color: rgba(13, 24, 52, 0.9); /* Couleur du bouton et opacité à 0.8 */
+    background-image: url(micro.jpg); /* Ajout d'une image en fond */
+    background-repeat: no-repeat;
+    background-position: right center; /* Image placée à droite au centre du bouton */
+    background-size: 30%; /* taille du background => de l'image dans le bouton */}
+
+    #page4
+ {top: 31%; /* Position du 1er bouton à 7% du haut de la page */
+    background-color: rgba(13, 24, 52, 0.9); /* Couleur du bouton et opacité à 0.8 */
+    background-image: url(micro.jpg); /* Ajout d'une image en fond */
+    background-repeat: no-repeat;
+    background-position: right center; /* Image placée à droite au centre du bouton */
+    background-size: 30%; /* taille du background => de l'image dans le bouton */}
+
+    #page5
+     {top: 40%; /* Position du 1er bouton à 7% du haut de la page */
+    background-color: rgba(13, 24, 52, 0.9); /* Couleur du bouton et opacité à 0.8 */
+    background-image: url(micro.jpg); /* Ajout d'une image en fond */
+    background-repeat: no-repeat;
+    background-position: right center; /* Image placée à droite au centre du bouton */
+    background-size: 30%; /* taille du background => de l'image dans le bouton */}
+

@@ -1,0 +1,31 @@
+Tous :
+Accès aux pages de présentation (entreprise, produits, services)
+
+
+Visiteur :
+Accès à la page catalogue (occasion, produits usés...)
+Accès à l'inscription en tant que client
+Accès à la page de contact 1 (formulaire de contact : mailto:contact@cow(D)boys.tx)
+Accès à la page sign-up
+
+
+
+Client :
+Acccès à l'identification
+Accès a la page de contact 2 (formulaire de contact : mailto:client@cow(D)boys.tx)
+Accès à la page log-in
+Accès à la page Produits VIP (Super produits, promo, vente privée,...)
+
+
+
+
+Admin infra:
+Accès à la page ADMIN (gestion des comptes clients, modif mot de passe,...)
+Accès à la page report des formulaires
+
+
+
+
+Admin gérant/commercial:
+Accès à la page ADMIN/Commercial (ajout/suppression produits, catalogues,...)
+
